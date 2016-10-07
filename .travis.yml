@@ -1,0 +1,7 @@
+language: objective-c
+osx_image: xcode8
+xcode_project: Parser.xcodeproj
+xcode_scheme: Parser
+xcode_sdk: iphonesimulator10.0
+script:
+  - set -o pipefail && xcodebuild -project Parser.xcodeproj -scheme Parser -sdk iphonesimulator -destination 'platform=iOS Simulator,OS=10.0,name=iPhone SE' build test | xcpretty
