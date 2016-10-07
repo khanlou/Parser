@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		1AEC1D3B1DA772E100CF2B35 /* Parser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AEC1D311DA772E000CF2B35 /* Parser.framework */; };
 		1AEC1D401DA772E100CF2B35 /* ParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEC1D3F1DA772E100CF2B35 /* ParserTests.swift */; };
-		1AEC1D421DA772E100CF2B35 /* Parser.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AEC1D341DA772E000CF2B35 /* Parser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1AEC1D4C1DA7733700CF2B35 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEC1D4B1DA7733700CF2B35 /* Parser.swift */; };
 		1AEC1D4E1DA7736000CF2B35 /* JSONInitializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEC1D4D1DA7736000CF2B35 /* JSONInitializable.swift */; };
 /* End PBXBuildFile section */
@@ -26,7 +25,6 @@
 
 /* Begin PBXFileReference section */
 		1AEC1D311DA772E000CF2B35 /* Parser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Parser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1AEC1D341DA772E000CF2B35 /* Parser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Parser.h; sourceTree = "<group>"; };
 		1AEC1D351DA772E000CF2B35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1AEC1D3A1DA772E100CF2B35 /* ParserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AEC1D3F1DA772E100CF2B35 /* ParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParserTests.swift; sourceTree = "<group>"; };
@@ -75,7 +73,6 @@
 		1AEC1D331DA772E000CF2B35 /* Parser */ = {
 			isa = PBXGroup;
 			children = (
-				1AEC1D341DA772E000CF2B35 /* Parser.h */,
 				1AEC1D4B1DA7733700CF2B35 /* Parser.swift */,
 				1AEC1D351DA772E000CF2B35 /* Info.plist */,
 				1AEC1D4D1DA7736000CF2B35 /* JSONInitializable.swift */,
@@ -99,7 +96,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AEC1D421DA772E100CF2B35 /* Parser.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
