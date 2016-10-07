@@ -62,6 +62,10 @@ As the number of properties increases, this approach scales more easily.
 
 The errors that `Parser` generates are rich: they include details about which key was missing, what type it expected them to be, and what type they were. This makes tracking down bad JSON much faster.
 
+The full rationale for this library is laid out in [this blog post](http://khanlou.com/2016/04/decoding-json/).
+
+## Methods
+
 ### `fetch`
 
 ```
@@ -118,4 +122,3 @@ func fetchOptionalArray<T>(_ key: String) throws -> [T]
 ```
 
 `fetchOptionalArray(_: transformation:)` returns an empty array if the key is missing or null. It transforms each element in the array using the provided block. Elements that can't be transformed are removed from the array and don't throw an error.
-
