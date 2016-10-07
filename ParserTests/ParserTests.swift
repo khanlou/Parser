@@ -80,6 +80,6 @@ class ParserTests: XCTestCase {
     
     func testFetchOptionalNullValue() {
         let parser = Parser(dictionary: dictionary)
-        XCTAssertNil(try parser.fetchOptional("aNullValue") as NSNull?)
+        XCTAssertNil(try parser.fetchOptional("aNullValue"))
     }
 }
