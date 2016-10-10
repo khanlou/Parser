@@ -53,8 +53,8 @@ These initializers handle creating the `Parser` and catch errors for you, so all
 
 ```
 init(parser: Parser) throws {
-    self.latitude = try parser.fetch("lat")
-    self.longitude = try parser.fetch("lon")
+    self.latitude = try parser.fetch("latitude")
+    self.longitude = try parser.fetch("longitude")
 }
 ```
 
