@@ -13,9 +13,9 @@ struct ParserError: Error {
 }
 
 struct Parser {
-    let dictionary: [String: AnyObject]?
+    let dictionary: [String: Any]?
     
-    init(dictionary: [String: AnyObject]?) {
+    init(dictionary: [String: Any]?) {
         self.dictionary = dictionary
     }
     
